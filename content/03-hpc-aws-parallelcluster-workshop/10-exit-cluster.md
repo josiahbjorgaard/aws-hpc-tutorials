@@ -8,7 +8,7 @@ tags = ["tutorial", "create", "ParallelCluster"]
 Congratulations, you have deployed a HPC Cluster on AWS !
 
 In this lab, you have:
-- Configured and deployed your HPC Cluster with Pcluster Manager
+- Configured and deployed your HPC Cluster with PCluster Manager
 - Connected and executed a sample application on your HPC Cluster.
 - Observed the scaling of instances when jobs are submitted.
 

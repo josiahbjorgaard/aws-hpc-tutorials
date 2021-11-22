@@ -3,7 +3,7 @@ title: "AWS ParallelCluster API"
 date: 2019-01-24T09:05:54Z
 weight: 40
 pre: "<b>Part II ⁃ </b>"
-tags: ["HPC", "API", "ParallelCluster", "Pcluster"]
+tags: ["HPC", "API", "ParallelCluster", "PCluster"]
 ---
 
 In [Part I](/03-hpc-aws-parallelcluster-workshop.html) you created an HPC system in the cloud using the AWS ParallelCluster CLI and submitted a test MPI job. In Part II, you will run through the following steps:
@@ -33,7 +33,7 @@ Using this API you can have an AWS EventBridge rule that checks if files are sto
 
 A high level of AWS ParallelCluster API is shown in the image below:
 
-![Pcluster Manager install](https://docs.aws.amazon.com/parallelcluster/latest/ug/images/API-Architecture.png)
+![PCluster Manager install](https://docs.aws.amazon.com/parallelcluster/latest/ug/images/API-Architecture.png)
 
 {{% notice tip %}}AWS ParallelCluster API provides you with the ability to create and manage cluster programmatically. You can call this API using an AWS Lambda function triggered when a new file is stored in an Amazon S3 bucket or to trigger the creation of a dedicated cluster to process a stream of jobs then shutdown.
 {{% /notice %}}

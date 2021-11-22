@@ -5,9 +5,9 @@ weight = 80
 tags = ["tutorial", "initialize", "ParallelCluster"]
 +++
 
-Now that you have the API URL, you will start interacting with the API through its REST interface. This can be done directly through the [Python Requests](https://docs.python-requests.org/en/latest/) library or the [Pcluster Client](https://github.com/aws/aws-parallelcluster/tree/develop/api/client/src) library. You will use the latter for the reminder of this workshop.
+Now that you have the API URL, you will start interacting with the API through its REST interface. This can be done directly through the [Python Requests](https://docs.python-requests.org/en/latest/) library or the [PCluster Client](https://github.com/aws/aws-parallelcluster/tree/develop/api/client/src) library. You will use the latter for the reminder of this workshop.
 
-For this step you will install the Pcluster Client library and run a sample code to list your clusters programmatically.
+For this step you will install the PCluster Client library and run a sample code to list your clusters programmatically.
 
 1. On AWS Cloud9, run the following command in a terminal to install the library and AWS ParallelCluster
 
@@ -63,7 +63,7 @@ python3 list_clusters.py
 
 4. You should see a result similar to the one in the image below.
 
-![Pcluster API](/images/hpc-aws-parallelcluster-workshop/pcapi-list.png)
+![PCluster API](/images/hpc-aws-parallelcluster-workshop/pcapi-list.png)
 
 5. You can get same result using the AWS ParallelCluster CLI and piping multiple commands in your AWS Cloud9 terminal by running the code below.
 

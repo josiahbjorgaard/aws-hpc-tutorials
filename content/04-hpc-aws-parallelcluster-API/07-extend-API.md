@@ -76,9 +76,9 @@ python stop_clusters_fleets.py
 
 3. You should see a result similar to the one in the image below.
 
-![Pcluster API](/images/hpc-aws-parallelcluster-workshop/pcapi-stop.png)
+![PCluster API](/images/hpc-aws-parallelcluster-workshop/pcapi-stop.png)
 
-4. **Connect** to your Pcluster Manager interface then check the status of the compute fleet. What do you see?
+4. **Connect** to your PCluster Manager interface then check the status of the compute fleet. What do you see?
 
 
-Now that you understand how to work with the Pcluster API, how would you use it to delete clusters?
+Now that you understand how to work with the PCluster API, how would you use it to delete clusters?

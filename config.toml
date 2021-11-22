@@ -18,7 +18,6 @@ disableSearch = false
 disableAssetsBusting = false
 disableLanguageSwitchingButton = true
 disableShortcutsTitle = false
-disableInlineCopyToClipBoard = false
 
 
 [outputs]

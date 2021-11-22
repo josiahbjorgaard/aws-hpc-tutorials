@@ -1,5 +1,5 @@
 +++
-title = "h. Optional - Run IOR"
+title = "i. Optional - Run IOR"
 date = 2019-09-18T10:46:30-04:00
 weight = 90
 tags = ["tutorial", "IOR", "ParallelCluster"]
@@ -16,7 +16,7 @@ You will now run an performance testing application called [IOR](https://github.
 
 Use the following command to install IOR. For this installation, use the *io500-sc19* branch of the repository on the cluster head node.
 
-```
+```bash
 # get IOR
 mkdir -p /shared/ior
 git clone https://github.com/hpc/ior.git

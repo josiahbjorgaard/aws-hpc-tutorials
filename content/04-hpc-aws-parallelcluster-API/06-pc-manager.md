@@ -5,8 +5,7 @@ weight = 70
 tags = ["tutorial", "create", "ParallelCluster"]
 +++
 
-The AWS ParallelCluster API provides you with many options to manage clusters as part of your workflow or to build custom feature. AWS Pcluster Manager (PCM) is an example of feature built upon the API that provides an Web UI to manage your clusters.
-
+The AWS ParallelCluster API provides you with many options to manage clusters as part of your workflow or to build custom features. AWS Pcluster Manager (PCM) is an example of feature built upon the API that provides an Web UI to manage your clusters.
 
 #### About the AWS ParallelCluster Manager
 

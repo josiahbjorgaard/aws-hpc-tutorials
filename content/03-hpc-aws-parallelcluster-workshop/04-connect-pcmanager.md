@@ -1,12 +1,12 @@
 +++
-title = "c. Connect to Pcluster Manager (Post-Event)"
+title = "c. Post-Event: Connect to Pcluster Manager (Skip)"
 date = 2019-09-18T10:46:30-04:00
-weight = 50
+weight = 40
 tags = ["tutorial", "initialize", "ParallelCluster"]
 +++
 
 {{% notice warning %}}
-Skip this step if you are doing the labs during the re:Invent workshop.
+**Skip this step if you are doing the labs during the re:Invent workshop.**
 {{% /notice %}}
 
 1. Got to the AWS Console, in the search box search for [**AWS CloudFormation**](https://console.aws.amazon.com/cloudformation/home) and click on that service.

@@ -6,9 +6,7 @@ pre: "<b>Part II ⁃ </b>"
 tags: ["HPC", "API", "ParallelCluster", "Pcluster"]
 ---
 
-In [Part I](/03-hpc-aws-parallelcluster-workshop.html) you created an HPC system in the cloud using the AWS ParallelCluster CLI and submitted a test MPI job. You also initiated the deployment of the AWS ParallelCluter API as part of [*step c*](/03-hpc-aws-parallelcluster-workshop/04-initialize-api.html) of the lab.
-
-In Part II, you will run through the following steps:
+In [Part I](/03-hpc-aws-parallelcluster-workshop.html) you created an HPC system in the cloud using the AWS ParallelCluster CLI and submitted a test MPI job. In Part II, you will run through the following steps:
 
 - Use the [AWS ParallelCluster API](https://docs.aws.amazon.com/parallelcluster/latest/ug/api-reference-v3.html) to manage your HPC cluster programmatically with a Python interface.
 - Interact with the API using a web interface that will call the API on your behalf.
@@ -37,5 +35,5 @@ A high level of AWS ParallelCluster API is shown in the image below:
 
 ![Pcluster Manager install](https://docs.aws.amazon.com/parallelcluster/latest/ug/images/API-Architecture.png)
 
-{{% notice tip %}}The AWS ParallelCluster API provides you with the ability to create and manage cluster programmatically. You can call this API using an AWS Lambda function triggered when a new file is stored in an Amazon S3 bucket or to trigger the creation of a dedicated cluster to process a stream of jobs then shutdown.
+{{% notice tip %}}AWS ParallelCluster API provides you with the ability to create and manage cluster programmatically. You can call this API using an AWS Lambda function triggered when a new file is stored in an Amazon S3 bucket or to trigger the creation of a dedicated cluster to process a stream of jobs then shutdown.
 {{% /notice %}}

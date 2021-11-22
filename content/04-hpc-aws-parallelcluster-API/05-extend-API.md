@@ -19,6 +19,7 @@ Follow the steps below to list instances in your clusters using the AWS Parallel
 1. Create a new file on your AWS Cloud9 instance and name it `list_clusters_instances.py` and paste the code below.
 
 ```python
+cat > list_clusters.py << EOF
 #!/usr/bin/env python3
 
 # utility libraries
@@ -53,12 +54,12 @@ with pcluster_client.ApiClient(configuration) as api_client:
     try:
         for cluster in clusters:
             api_response = api_instance_instances.describe_cluster_instances(cluster['cluster_name'])
-            print(f"Listing instances for cluster: {cluster['cluster_name']} ")
+            print(f"Listing instances for cluster: {cluster['cluster_name']}")
             pprint(api_response)
     # print an exception if an issue was encountered
     except pcluster_client.ApiException as e:
         print("Exception when calling ClusterInstancesApi->describe_cluster_instances: %s\n" % e)
-
+EOF
 ```
 
 2. Once saved, use a terminal on your AWS Cloud9 instance and ensure that your [API URL](/04-hpc-aws-parallelcluster-api/03-retrieve-api-url.html) is set and execute it.

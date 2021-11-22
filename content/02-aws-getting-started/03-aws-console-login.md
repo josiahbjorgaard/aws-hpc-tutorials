@@ -1,5 +1,5 @@
 +++
-title = "b. Access AWS (Post-Event)"
+title = "b. Post-Event: Access AWS (Skip)"
 date = 2019-09-18T10:46:30-04:00
 draft = false
 weight = 60

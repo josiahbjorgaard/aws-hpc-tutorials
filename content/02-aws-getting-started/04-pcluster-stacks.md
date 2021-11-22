@@ -1,5 +1,5 @@
 +++
-title = "b. Deploy Pcluster Manager (Post-Event)"
+title = "b. Post-Event: Deploy Pcluster Manager (Skip)"
 weight = 60
 tags = ["tutorial", "cloud9", "ParallelCluster"]
 +++

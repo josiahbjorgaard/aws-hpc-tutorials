@@ -1,11 +1,11 @@
 +++
-title = "g. Stop Clusters Fleets from Scaling"
+title = "g. Stop Clusters Fleets"
 date = 2019-09-18T10:46:30-04:00
 weight = 90
 tags = ["tutorial", "initialize", "ParallelCluster"]
 +++
 
-In the previous step you saw how to use the AWS ParallelCluster API. You will now extend your code to stop the compute fleets of your cluster from scaling. This can be useful if you'd like to prevent your compute fleet from scaling on job submission. Once case being that you'd like to conduct a maintenance on the system or just investigate an issue on the system without impacting running jobs.
+In the previous step you saw how to use the AWS ParallelCluster API. You will now extend your code to stop the compute fleets of your cluster. This will prevent them from scaling and enable you to update them by changing the instance type or even adding new queues with different instance kinds. A reason for that is to enable your cluster to run workflows of jobs with mixed requirements.
 
 Follow the steps below to list instances in your clusters using the AWS ParallelCluster API:
 

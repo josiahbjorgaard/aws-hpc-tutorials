@@ -36,6 +36,11 @@ int main(int argc, char **argv){
 }
 EOF
 
+```
+
+Then load the Intel compiler and compile your program.
+
+```bash
 # load IntelMPI and compile the sample application code
 module load intelmpi
 mpicc mpi_hello_world.c -o mpi_hello_world

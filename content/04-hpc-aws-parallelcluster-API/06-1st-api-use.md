@@ -13,7 +13,7 @@ For this step you will install the PCluster Client library and run a sample code
 
 ```bash
 pip3 install git+https://github.com/aws/aws-parallelcluster.git#subdirectory=api/client/src --use-feature=2020-resolver --user
-pip3 install aws-parallelcluster --use-feature=2020-resolver --user
+pip3 install "aws-parallelcluster>=3" --use-feature=2020-resolver --user
 ```
 
 2. **Copy** the code below and **paste** it in a AWS Cloud9 terminal. The code will be saved under the name `list_clusters.py`.

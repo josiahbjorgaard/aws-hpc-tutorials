@@ -1,13 +1,13 @@
 +++
-title = "b. Retrieve the API endpoint URL"
+title = "e. Retrieve the API endpoint URL"
 date = 2019-09-18T10:46:30-04:00
-weight = 40
+weight = 70
 tags = ["tutorial", "initialize", "ParallelCluster"]
 +++
 
 To call AWS ParallelCluster API, you need to retrieve the URL of its REST endpoint. This endpoint is provided as an output of the AWS ParallelCluster API stack and can be retrieved with the AWS CLI.
 
-Run the following commands in your AWS Cloud9 terminal to retrieve the URL of the API endpoint:
+Run the following commands in a AWS Cloud9 terminal to retrieve the URL of the API endpoint:
 
 ```bash
 # retrieve the AWS ParallelCluster API stack name

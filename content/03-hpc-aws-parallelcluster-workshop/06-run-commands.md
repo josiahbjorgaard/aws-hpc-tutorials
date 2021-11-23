@@ -4,6 +4,7 @@ date = 2019-09-18T10:46:30-04:00
 weight = 70
 tags = ["tutorial", "create", "ParallelCluster"]
 +++
+
 Now that you are connected to the head node, familiarize yourself with the cluster structure by running the following set of commands.
 
 ##### SLURM

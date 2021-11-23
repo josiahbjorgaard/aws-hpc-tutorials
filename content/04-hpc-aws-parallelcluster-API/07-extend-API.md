@@ -80,5 +80,4 @@ python stop_clusters_fleets.py
 
 4. **Connect** to your PCluster Manager interface then check the status of the compute fleet. What do you see?
 
-
 Now that you understand how to work with the PCluster API, how would you use it to delete clusters?

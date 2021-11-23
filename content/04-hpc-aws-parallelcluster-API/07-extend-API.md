@@ -68,7 +68,7 @@ with pcluster_client.ApiClient(configuration) as api_client:
 EOF
 ```
 
-2. As in the previous page, use a terminal on your AWS Cloud9 instance and ensure that your [`API_URL`](/04-hpc-aws-parallelcluster-api/03-retrieve-api-url.html) is set using `echo $API_URL` and execute your new Python script
+2. As in the previous page, use a terminal on your AWS Cloud9 instance and ensure that your [API_URL](/04-hpc-aws-parallelcluster-api/03-retrieve-api-url.html) is set using `echo $API_URL` and execute your new Python script
 
 ```bash
 python stop_clusters_fleets.py

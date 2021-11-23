@@ -13,6 +13,8 @@ If you submit additional jobs to run concurrently, then Slurm and ParallelCluste
 
 Once all jobs are processed and instances have been idle for a configurable period of time, ParallelCluster will scale down those instances. All of these lifecycle actions are fully managed, meaning users do not have to worry about needing to manually scale resources up or down, and ensuring you only need to spend for resources that are actively being used to perform work.
 
+#### Connect to your HPC cluster
+
 With all that information in mind, let's connect to your cluster and we will start submitting some jobs so that you can test out ParallelCluster's elasticity yourself.
 
 1. Check that your cluster is successfully deployed as labeled by *1* in the screenshot below with the state *CREATE_COMPLETE*. If this state is reached, **Click** on the small *Shell* icon labeled by *2*.

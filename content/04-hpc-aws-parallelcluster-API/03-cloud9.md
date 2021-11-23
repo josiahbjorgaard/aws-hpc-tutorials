@@ -18,7 +18,7 @@ After accessing your IDE, take a moment to familiarize yourself with the Cloud9 
 
 These steps apply to both individual users of this workshop and those in a group setting. To access your IDE, follow these steps:
 
-1. In the AWS Management Console, locate **Cloud9** by using the search bar, or choose **Services**, then **Cloud9**. [Cloud9 Link](https://console.aws.amazon.com/cloud9/home)
+1. In the AWS Management Console, locate **Cloud9** by using the search bar, or choose **Services**, then [Cloud9](https://console.aws.amazon.com/cloud9/home).
 ![Cloud 9](/images/introductory-steps/cloud9-find.png)
 2. Choose **Your Environments** on the left panel
 3. Choose **MyCloud9Env** and choose **Open IDE**.
